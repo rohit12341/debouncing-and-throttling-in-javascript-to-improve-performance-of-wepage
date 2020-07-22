@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <title>throttling and debouncing in javascript</title>
+   <style>
+#parent{
+  position: relative;
+  overflow: hidden;
+  background: rgb(162, 205, 211);
+  border:1px solid rgb(223, 221, 221);
+  height: 200px;
+  width: 200px;
+}
+.resizer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    background: #0000;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    cursor: nwse-resize;
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+    <h3>throttling and debouncing in javascript</h3>
+
+    <h4>1. throttling example</h4>
+    <div id="parent">
+    
+    </div>
+
+
+    <h4>1. debouncing example</h4>
+    <div>
+      <input type="text" placeholder="enter text" onkeypress="getBetterResult();" id="val" />  
+    </div>
+
+
+    </div>
+    <script src="throttle-debounce.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
